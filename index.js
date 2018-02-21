@@ -26,7 +26,7 @@
  *		p.arr.splice(0,1);			// [{"type":"delete","target":[],"property":"0","newValue":null,"previousValue":"hello world","currentPath":"arr"},{"type":"update","target":[],"property":"length","newValue":0,"previousValue":1,"currentPath":"arr"}]
  *		console.log(test);			// {"testing":{"blah":42},"arr":[]}
  */
-var ObservableSlim = (function() {
+export const ObservableSlim = (function() {
 
 	// An array that stores all of the observables created through the public create() method below.
 	var observables = [];
